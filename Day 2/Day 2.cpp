@@ -79,6 +79,7 @@ int main()
 		if (curRed <= maxRed && curGreen <= maxGreen && curBlue <= maxBlue) {
 			sum += gameID;
 		}
+		sum += curRed * curGreen * curBlue;
 
 	}
 	std::cout << sum << "\n";
